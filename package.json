@@ -1,0 +1,19 @@
+{
+  "name": "p3_goby_matisse",
+  "version": "1.0.0",
+  "description": "Projet 3 WebDev openclassrooms OhMyFood",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matisse77/MatisseGoby_3_19082021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matisse77/MatisseGoby_3_19082021/issues"
+  },
+  "homepage": "https://github.com/matisse77/MatisseGoby_3_19082021#readme"
+}
