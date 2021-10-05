@@ -14,7 +14,7 @@
       media="screen"
       type="text/css"
       title="Design"
-      href="css/style.css"
+      href="./public/css/style.css"
     />
   </head>
 
@@ -31,159 +31,159 @@
     <img
       src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
       alt="Une grande table d'un restaurant chic avec une multitude de plats soigneusement dresser"
-      class="platsHeader"
+      class="imgHeader"
     />
 
-    <main>
-      <header class="restaurants">
-        <h2>La palette du goût</h2>
-        <button class="love">
-          <i class="far fa-heart"></i>
-          <i class="fas fa-heart"></i>
+    <main class="menu container">
+      <header class="menu__header">
+        <h2 class="menu__title">La palette du goût</h2>
+        <button class="menu__btn">
+          <i class="menu__like menu__like--noBg far fa-heart fa-2x"></i>
+          <i class="menu__like menu__like--bg fas fa-heart fa-2x"></i>
         </button>
       </header>
 
-      <div class="menu">
+      <div class="submenus">
         <section class="submenu">
           <h3 class="submenu__title">Entrées</h3>
-          <section class="menuDish line-1">
-            <header class="menuDish__header">
-              <h4 class="menuDish__title">Fricassée d'escargot</h4>
-              <p class="menuDish__description">Au piment d'espelette</p>
+          <section class="menuItem delay-0">
+            <header class="menuItem__header">
+              <h4 class="menuItem__title">Fricassée d'escargot</h4>
+              <p class="menuItem__description">Au piment d'espelette</p>
             </header>
-            <div class="menuDish__price">25€</div>
-            <div class="menuDish__confirmation">
-              <div class="menuDish__wrapIcon">
-                <i class="menuDish__icon fas fa-check-circle"></i>
+            <div class="menuItem__price">25€</div>
+            <div class="menuItem__confirmation">
+              <div class="menuItem__wrapIcon">
+                <i class="menuItem__icon fas fa-check"></i>
               </div>
             </div>
           </section>
 
-          <section class="menuDish line-2">
-            <header class="menuDish__header">
-              <h4 class="menuDish__title">Foie gras de canard mi-cuit</h4>
-              <p class="menuDish__description">
+          <section class="menuItem delay-1">
+            <header class="menuItem__header">
+              <h4 class="menuItem__title">Foie gras de canard mi-cuit</h4>
+              <p class="menuItem__description">
                 Et ses copeaux de truffe noire
               </p>
             </header>
-            <div class="menuDish__price">35€</div>
-            <div class="menuDish__confirmation">
-              <div class="menuDish__wrapIcon">
-                <i class="menuDish__icon fas fa-check-circle"></i>
+            <div class="menuItem__price">35€</div>
+            <div class="menuItem__confirmation">
+              <div class="menuItem__wrapIcon">
+                <i class="menuItem__icon fas fa-check"></i>
               </div>
             </div>
           </section>
 
-          <section class="menuDish line-3">
-            <header class="menuDish__header">
-              <h4 class="menuDish__title">Oeuf au plat</h4>
-              <p class="menuDish__description">
+          <section class="menuItem delay-2">
+            <header class="menuItem__header">
+              <h4 class="menuItem__title">Oeuf au plat</h4>
+              <p class="menuItem__description">
                 Assaisonné à la truffe sur lit de poireaux
               </p>
             </header>
-            <div class="menuDish__price">20€</div>
-            <div class="menuDish__confirmation">
-              <div class="menuDish__wrapIcon">
-                <i class="menuDish__icon fas fa-check-circle"></i>
+            <div class="menuItem__price">20€</div>
+            <div class="menuItem__confirmation">
+              <div class="menuItem__wrapIcon">
+                <i class="menuItem__icon fas fa-check"></i>
               </div>
             </div>
           </section>
         </section>
 
-        <section class="menu">
+        <section class="submenu">
           <h3 class="submenu__title">Plats</h3>
-          <section class="menuDish line-4">
-            <header class="menuDish__header">
-              <h4 class="menuDish__title">Filet de boeuf aux herbes</h4>
-              <p class="menuDish__description">
+          <section class="menuItem delay-3">
+            <header class="menuItem__header">
+              <h4 class="menuItem__title">Filet de boeuf aux herbes</h4>
+              <p class="menuItem__description">
                 Accompagné de sa ribambelle de légumes
               </p>
             </header>
-            <div class="menuDish__price">40€</div>
-            <div class="menuDish__confirmation">
-              <div class="menuDish__wrapIcon">
-                <i class="menuDish__icon fas fa-check-circle"></i>
+            <div class="menuItem__price">40€</div>
+            <div class="menuItem__confirmation">
+              <div class="menuItem__wrapIcon">
+                <i class="menuItem__icon fas fa-check"></i>
               </div>
             </div>
           </section>
 
-          <section class="menuDish line-5">
-            <header class="menuDish__header">
-              <h4 class="menuDish__title">Parmentier de queue de boeuf</h4>
-              <p class="menuDish__description">
+          <section class="menuItem delay-4">
+            <header class="menuItem__header">
+              <h4 class="menuItem__title">Parmentier de queue de boeuf</h4>
+              <p class="menuItem__description">
                 A la truffe noire sur sa purée de panais
               </p>
             </header>
-            <div class="menuDish__price">35€</div>
-            <div class="menuDish__confirmation">
-              <div class="menuDish__wrapIcon">
-                <i class="menuDish__icon fas fa-check-circle"></i>
+            <div class="menuItem__price">35€</div>
+            <div class="menuItem__confirmation">
+              <div class="menuItem__wrapIcon">
+                <i class="menuItem__icon fas fa-check"></i>
               </div>
             </div>
           </section>
 
-          <section class="menuDish line-6">
-            <header class="menuDish__header">
-              <h4 class="menuDish__title">Filet de Turbot</h4>
-              <p class="menuDish__description">Aux agrumes</p>
+          <section class="menuItem delay-5">
+            <header class="menuItem__header">
+              <h4 class="menuItem__title">Filet de Turbot</h4>
+              <p class="menuItem__description">Aux agrumes</p>
             </header>
-            <div class="menuDish__price">44€</div>
-            <div class="menuDish__confirmation">
-              <div class="menuDish__wrapIcon">
-                <i class="menuDish__icon fas fa-check-circle"></i>
+            <div class="menuItem__price">44€</div>
+            <div class="menuItem__confirmation">
+              <div class="menuItem__wrapIcon">
+                <i class="menuItem__icon fas fa-check"></i>
               </div>
             </div>
           </section>
         </section>
 
-        <section class="menu">
+        <section class="submenu">
           <h3 class="submenu__title">Desserts</h3>
-          <section class="menuDish line-7">
-            <header class="menuDish__header">
-              <h4 class="menuDish__title">Paris-Brest</h4>
-              <p class="menuDish__description">Revisité</p>
+          <section class="menuItem delay-6">
+            <header class="menuItem__header">
+              <h4 class="menuItem__title">Paris-Brest</h4>
+              <p class="menuItem__description">Revisité</p>
             </header>
-            <div class="menuDish__price">18€</div>
-            <div class="menuDish__confirmation">
-              <div class="menuDish__wrapIcon">
-                <i class="menuDish__icon fas fa-check-circle"></i>
+            <div class="menuItem__price">18€</div>
+            <div class="menuItem__confirmation">
+              <div class="menuItem__wrapIcon">
+                <i class="menuItem__icon fas fa-check"></i>
               </div>
             </div>
           </section>
 
-          <section class="menuDish line-8">
-            <header class="menuDish__header">
-              <h4 class="menuDish__title">Macaron au chocolat d'exception</h4>
-              <p class="menuDish__description">
+          <section class="menuItem delay-7">
+            <header class="menuItem__header">
+              <h4 class="menuItem__title">Macaron au chocolat d'exception</h4>
+              <p class="menuItem__description">
                 Et glace à la vanille de Madagascar
               </p>
             </header>
-            <div class="menuDish__price">22€</div>
-            <div class="menuDish__confirmation">
-              <div class="menuDish__wrapIcon">
-                <i class="menuDish__icon fas fa-check-circle"></i>
+            <div class="menuItem__price">22€</div>
+            <div class="menuItem__confirmation">
+              <div class="menuItem__wrapIcon">
+                <i class="menuItem__icon fas fa-check"></i>
               </div>
             </div>
           </section>
 
-          <section class="menuDish line-9">
-            <header class="menuDish__header">
-              <h4 class="menuDish__title">Mousse au chocolat</h4>
-              <p class="menuDish__description">
+          <section class="menuItem delay-8">
+            <header class="menuItem__header">
+              <h4 class="menuItem__title">Mousse au chocolat</h4>
+              <p class="menuItem__description">
                 Au piment d'espelette et à la truffe noire
               </p>
             </header>
-            <div class="menuDish__price">23€</div>
-            <div class="menuDish__confirmation">
-              <div class="menuDish__wrapIcon">
-                <i class="menuDish__icon fas fa-check-circle"></i>
+            <div class="menuItem__price">23€</div>
+            <div class="menuItem__confirmation">
+              <div class="menuItem__wrapIcon">
+                <i class="menuItem__icon fas fa-check"></i>
               </div>
             </div>
           </section>
         </section>
       </div>
 
-      <div class="command">
+      <div class="wrapBtn">
         <button class="commandBtn">Commander</button>
       </div>
     </main>
@@ -192,22 +192,22 @@
       <div class="container">
         <span class="footer__logo">ohmyfood</span>
         <ul class="footer__list">
-          <li class="footer__list">
+          <li class="footer__listEs">
             <a class="footer__link" href="#"
               ><i class="footer__icon fas fa-utensils"></i>Proposer un
               restaurant</a
             >
           </li>
-          <li class="footer__list">
+          <li class="footer__listEs">
             <a class="footer__link" href="#"
               ><i class="footer__icon fas fa-hands-helping"></i>Devenir
               partenaire</a
             >
           </li>
-          <li class="footer__list">
+          <li class="footer__listEs">
             <a class="footer__link" href="#">Mentions légales</a>
           </li>
-          <li class="footer__list">
+          <li class="footer__listEs">
             <a class="footer__link" href="mailto:contact@ohmyfood.com"
               >Contact</a
             >
